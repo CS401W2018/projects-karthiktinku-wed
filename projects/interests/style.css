@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    color: black;
+    
+    background-color: yellowgreen; 
+   
+}
+h1 {
+    color: blueviolet;
+}
+h3{
+    color: blueviolet;
+}
+h2 {
+    color:blueviolet ;
+    
+}
+nav {
+    color: blue;
+    background-color: black;
+}
+footer{
+    color: black;
+    font-style: oblique;
+}
+.emphasize{
+    color: blueviolet;
+}
+.de-emphasized{
+    color:black ;
+}
+#firstpar{
+    font-style: initial;
+}
+.Virat{
+    font-size: larger;
+}
