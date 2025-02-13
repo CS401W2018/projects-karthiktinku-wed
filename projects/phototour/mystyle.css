@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2222DD; background-image: url(back.jpeg);
+
+    
+.mylist{
+    list-style-image: url(icon.png);
+}
+}
+
+.Hyderabad{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(logo.jpeg);
+}
+nav a {
+   color:#22DD22 ; 
+}
+.current{
+    color: gray;
+}
+
