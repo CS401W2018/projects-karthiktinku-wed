@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(40, 215, 57);
+    padding: 30px 10px 15px 0;
+    margin:45px;
+    width: 80%;
+    
+    overflow:visible;
+}
+header h1 { border: 5px double;}
+.wave{
+    width: 100px;
+    border: thin solid black;
+    text-align: center;
+    margin: 10px auto;
+}
+.wave img {
+    width: 100px;
+}
