@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nature{
+    width: 200px;
+    border: thin solid #000;
+    box-shadow: 5px 5px 4px rgba(30,30,30,30,0,5);
+    float: right;
+} 
+.nature img{
+width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+.building{
+    width: 80px;
+}
+nav a{
+    background-color: yellowgreen;
+    display: block;
+    padding: 10px 5px  ;
+    border-bottom: 3px solid #fff;
+}
