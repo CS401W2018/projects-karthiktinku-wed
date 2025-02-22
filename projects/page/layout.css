@@ -1,69 +1,78 @@
-body{ font-family: Arial, Helvetica, sans-serif; background-color: rgb(197, 13, 13);
-    color: black  }
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(197, 13, 13);
+    color: black;
+}
 
+nav { 
+    margin-left: 500px;
+}
 
-nav{ margin-left: 500px;}
-header{ 
- text-align: center;
-  background-color: rgb(113, 212, 21);
-  padding: 30px;
-  margin: 25px;
-  width: 80%; border: double; 
-  
-height: 100px;
- border-radius: 20px;
-  box-shadow: 3px 3px 8px;
-  margin-left: 65px;}
+header { 
+    text-align: center;
+    background-color: rgb(113, 212, 21);
+    padding: 30px;
+    margin: 25px auto; /* Centering the header */
+    width: 80%; 
+    border: double; 
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px;
+}
 
-
-h1{ text-shadow:2px 2px 8px  ;}
-
+h1 { 
+    text-shadow: 2px 2px 8px; 
+}
 
 .clear { 
-   clear: both;
+    clear: both;
 }
-
 
 main { 
- font-family: 'Times New Roman', Times, serif;
- font-size: large; 
- font-weight: bold; 
- line-height:40px; 
- text-align: left;
- text-transform: none;
- height:480px
-
-
-
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    font-weight: bold; 
+    line-height: 40px; 
+    text-align: left;
+    text-transform: none;
+    height: 480px;
 }
 
-
-
-
-.floatimg{ float: left }
-
-
-
-#wrapper
-{ 
-   background-color: rgb(255, 228, 196);
-   width: 1200px;
-   margin: auto;
-   height: 900px;
-   margin:auto;
-   border: thin solid;
-   border-radius: 20px;
+.floatimg { 
+    float: left; 
 }
 
-nav a { display: block; padding: 5px 10px; background-color: rgb(218, 32, 60);color:rgb(220, 223, 245) ;
- text-decoration: none; margin-right: 50px; float: left;}
+#wrapper { 
+    background-color: rgb(255, 228, 196);
+    width: 1200px;
+    margin: auto;
+    height: 900px;
+    border: thin solid;
+    border-radius: 20px;
+}
 
+nav a { 
+    display: block; 
+    padding: 5px 10px; 
+    background-color: rgb(218, 32, 60);
+    color: rgb(220, 223, 245);
+    text-decoration: none; 
+    margin-right: 50px; 
+    float: left;
+}
 
-nav a:hover {  color: goldenrod; background-color: beige; text-decoration: underline;}  
+nav a:hover {  
+    color: goldenrod; 
+    background-color: beige; 
+    text-decoration: underline;
+}  
 
-footer{ font-style: italic; background:url(logo.jpeg) right no-repeat; height: 100px; }
+footer { 
+    font-style: italic; 
+    background: url('logo.jpeg') right no-repeat; 
+    height: 100px; 
+}
 
-footer p{
- text-align: center;
+footer p { 
+    text-align: center;
 }
