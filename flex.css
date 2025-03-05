@@ -15,13 +15,17 @@ header{
     text-align: center;
     padding: 20px;
     font-size: 24px;
-
 }
 
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
 .row{
     display: flex;
     gap: 10px;
 }
+
 nav a {
     display: block;
     text-decoration: none;
@@ -29,44 +33,47 @@ nav a {
     display: block;
     
 }
-.parent{
-    background-color: rgb(171, 194, 138);
+.links{
+    background-color: #eeeeee;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-}
-.child{
-    background-color: rgb(236, 193, 200);
-    margin: 10px;
-    width: 100px;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.holder{
+    
+
+
+.main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    gap: 10px;
+    gap: 5px;
     
 }
-.cards {
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin: 10px;
-    width: 250px; /* Set a proper width for consistent card sizing */
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+figure{
+    border: thin solid black;
+    width: 100%;
+    
 }
+.cards{
+    width: 75%;
+    height: 500px;
+    
+}
+
+
+
+
 .cards img {
-    width: 100px;
-    height: 100px;
-    margin: o;
+    width: 100%;
+    margin: 0;
+    
     
 }
+
 header{
     background-color: rgb(251, 81, 92);
 }
@@ -87,6 +94,11 @@ header{
 footer a {
     display: block;
 }
+
 footer{
     margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+   
 }
