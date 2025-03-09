@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 218, 194);
+ }
+ header{
+     background-color: rgb(254, 119, 8);
+     font-style: oblique;
+ }
+ header h1 {
+  margin: 0;
+ }
+ .row{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     
+ }
+ .card{
+     border: thin solid rgb(0, 0, 0);
+     box-shadow: 3px 3px 3px black;
+     width: 300px;
+ }
+ nav{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(149, 190, 168);
+     font-style: italic;
+ }
+ nav a{
+     display: block;
+     padding: 10px;
+     background-color:rgb(161, 248, 218);
+     color: red;
+     text-decoration: none;
+ }
+ nav a:hover {
+     text-decoration:underline ;
+     color: aqua;
+     background-color: whitesmoke;
+ }
+ 
+ @media only screen AND ( max-width:900px){
+     .row{
+         flex-direction: column;
+         align-items: center;
+     }
+     .card{
+         margin-bottom: 20px;
+         width: 90%;
+     }
+     .feature{
+         order: -5;
+     }
+ }
+ .card figure{
+     margin: 0;
+ }
+ .card img{
+     width: 100%;
+ }
+ @media only screen AND ( max-width:600px){
+     header{
+         background-color:rgb(234, 249, 24);
+     }
+     nav{
+         flex-direction: column;
+     }
+     nav a {
+         border-bottom: thin solid #fff;
+     }
+     
+ }
+ 
