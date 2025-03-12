@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Schedule{
+    border: 4px solid #000;
+    box-shadow: 3px 3px 3px rgb(30, 30, 30,30,0.5);
+    caption-side: bottom;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.Schedule th,.Schedule td {
+    border: 4px solid #000;
+    background-color:rgb(242, 117, 0);
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.Schedule th{
+    background-color: rgb(238, 255, 0);
+  
+
+}
+.Schedule thead  {
+    background-color: blue;
+}
+.Schedule tfoot {
+
+    background-color: blue;
+}
