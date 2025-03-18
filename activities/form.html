@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header><h1>Web Design</h1></header>
+    <main>
+        <form action="processing.html" method="get">
+            <div>
+                Full Name: <input type="text" name="Fullname" placeholder="Full Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+               Email: <input type="text" name="email" value="karthiktinku@go.byuh.edu">
+            </div>
+            <div>
+                <label for="pass">password:</label>
+                 <input type="password" name="password" id="pass">
+            </div>
+            <div>
+                <label for="state">state</label>
+                <select name="state" id="state">
+                    <option value="blank"></option>
+                    <option value="CO">Colorado</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utha</option>
+
+                </select>
+            </div>
+            <div>
+                <div> Year in school</div>
+                <input type="radio" name="Year" value="Freshman">Freshman
+                <input type="radio" name="Year" value="sophmore">sophmore
+            </div>
+            <div  class="Fo">
+             <input type="submit"> 
+            </div>
+           
+        </form>
+    </main>
+    <h2>The form tag has an "action" attribute. What does it do?</h2>
+    <p>The action attribute in a form> tag specifies the URL where the form data will be sent when submitted.</p>
+    <h2>The form tag has a "method" attribute. What does it do?</h2>
+    <p>  The method attribute in a form> tag defines how the form data is sent to the server, using either GET or POST</p>
+    <h2>What is the difference between a "POST" and a "GET"?</h2>
+    <p>A GET request retrieves data from a server and sends parameters in the URL, making it visible and easy to bookmark. A POST request sends data securely in the request body, making it better for submitting forms or sensitive information.</p>
+    <footer>
+        <p>&copy; 2025 Karthik Dasari </p>
+    </footer>
+    
+</body>
+</html>
