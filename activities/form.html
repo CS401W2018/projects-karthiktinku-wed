@@ -10,44 +10,54 @@
     <header><h1>Web Design</h1></header>
     <main>
         <form action="processing.html" method="get">
-            <div>
-                Full Name: <input type="text" name="Fullname" placeholder="Full Name">
-            </div>
-            <div>
-                <label for="email">Email</label>
-               Email: <input type="text" name="email" value="karthiktinku@go.byuh.edu">
-            </div>
-            <div>
-                <label for="pass">password:</label>
-                 <input type="password" name="password" id="pass">
-            </div>
-            <div>
-                <label for="state">state</label>
-                <select name="state" id="state">
-                    <option value="blank"></option>
-                    <option value="CO">Colorado</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="UT">Utha</option>
+            <fieldset>
+                <legend>Account info</legend>
+                <div class="form-row">
+                    Full Name: <input type="text" name="Fullname" placeholder="Full Name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" value="karthiktinku@go.byuh.edu">
+                </div>
+                <div class="form-row">
+                    <label for="pass">password:</label>
+                    <input type="password" name="password" id="pass">
+                </div>
+                <div class="form-row">
+                    <label for="state">state</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utha</option>
 
-                </select>
-            </div>
-            <div>
-                <div> Year in school</div>
-                <input type="radio" name="Year" value="Freshman">Freshman
-                <input type="radio" name="Year" value="sophmore">sophmore
-            </div>
-            <div  class="Fo">
-             <input type="submit"> 
-            </div>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div> Year in school</div>
+                    <input type="radio" name="Year" value="Freshman">Freshman
+                    <input type="radio" name="Year" value="sophmore">sophmore
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label> <input type="checkbox" name="agree" id="agree" checked>Rembember mee</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div  class="form-row">
+                    <div class="form-spacer"></div>
+                <input type="submit"> 
+                </div>
+            </fieldset>
            
         </form>
     </main>
-    <h2>The form tag has an "action" attribute. What does it do?</h2>
-    <p>The action attribute in a form> tag specifies the URL where the form data will be sent when submitted.</p>
-    <h2>The form tag has a "method" attribute. What does it do?</h2>
-    <p>  The method attribute in a form> tag defines how the form data is sent to the server, using either GET or POST</p>
-    <h2>What is the difference between a "POST" and a "GET"?</h2>
-    <p>A GET request retrieves data from a server and sends parameters in the URL, making it visible and easy to bookmark. A POST request sends data securely in the request body, making it better for submitting forms or sensitive information.</p>
+    <h2>What are different ways to style your form?</h2>
+    <p>Style your form with CSS, frameworks, Flexbox/Grid, and Material UI. Add animations, icons, and validation styles for a better look.</p>
+    <h2>Why does the professor like to use flex?</h2>
+    <p> it is more easy</p>
     <footer>
         <p>&copy; 2025 Karthik Dasari </p>
     </footer>

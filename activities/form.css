@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-row{
+    display: flex;
+}
+.radio-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+fieldset{
+    background-color:rgb(0, 128, 111) ;
+}
+.legand{
+    background-color: blue;
+}
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+.form-row input:not([type="sudmit"]){
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #9999;
+}
+.form-row input:not([type="sudmit"]) :focus{
+    background-color: #FFF;
+}
+.form-row input:not([type="sudmit"]){
+    padding: 10px;
+    background-color: rgb(140, 140, 201);
+    color: white;
+    font-size: 24px;
+}
+
+.form-spacer{
+    width: 150px;
+    text-align: right;
+}
+@media ONLY screen AND (max-width: 600px) {
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+
+    }
+    .form-spacer{
+        text-align: left;
+    }
+    
+}
