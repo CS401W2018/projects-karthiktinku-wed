@@ -9,11 +9,11 @@
 <body>
     <header><h1>Web Design</h1></header>
     <main>
-        <form action="processing.html" method="get">
+        <form action="processing.html" method="get" id="myForm">
             <fieldset>
                 <legend>Account info</legend>
                 <div class="form-row">
-                    Full Name: <input type="text" name="Fullname" placeholder="Full Name">
+                    Full Name: <input type="text" name="fullname" placeholder="full Name" id="fullname">
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
@@ -22,6 +22,10 @@
                 <div class="form-row">
                     <label for="pass">password:</label>
                     <input type="password" name="password" id="pass">
+                </div>
+                <div class="form-row"></div>
+                    <label for="Age">Age:</label>
+                    <input type="number" name="age" id="age">
                 </div>
                 <div class="form-row">
                     <label for="state">state</label>
@@ -53,14 +57,28 @@
             </fieldset>
            
         </form>
-    </main>
-    <h2>What are different ways to style your form?</h2>
-    <p>Style your form with CSS, frameworks, Flexbox/Grid, and Material UI. Add animations, icons, and validation styles for a better look.</p>
-    <h2>Why does the professor like to use flex?</h2>
-    <p> it is more easy</p>
+    </main>  
+    <h2>What is JavaScript? How did it get its name?</h2>
+    <p>JavaScript is a web programming language for interactive content. Netscape named it in 1995 to leverage Java’s popularity, though they are unrelated.</p>
+    <h2>What are the two ways you can run JavaScript?</h2>
+    <p>In the browser- JavaScript runs inside web browsers like Chrome or Firefox, handling user interactions and dynamic content.</p>
+    <p>On a server -Using environments like Node.js, JavaScript can run outside the browser to handle backend tasks.</p>
+    <h2>What was the most popular front-end js library?</h2>
+    <p>The most popular front-end JavaScript library has been React.js. Developed by Facebook (now Meta), React became widely used for building interactive and dynamic user interfaces due to its component-based architecture and efficient rendering with the Virtual DOM.</p>
+    <h2>What is the most popular front-end js library today?</h2>
+    <p>​   As of March 2025, React.js remains the most popular front-end JavaScript library. Its component-based architecture and strong community support have solidified its position in the industry. However, other frameworks like Vue.js, Angular, and Svelte are also widely used, each offering unique features and advantages.</p>
     <footer>
         <p>&copy; 2025 Karthik Dasari </p>
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+
+            const fullname= document.getElementById('fullname').value;
+            console.log(fullname);
+        });
+    </script>
     
 </body>
 </html>

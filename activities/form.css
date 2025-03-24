@@ -10,7 +10,7 @@ body{
     margin: 10px 0;
 }
 fieldset{
-    background-color:rgb(0, 128, 111) ;
+    background-color:rgb(94, 219, 202) ;
 }
 .legand{
     background-color: blue;
@@ -29,7 +29,7 @@ fieldset{
 }
 .form-row input:not([type="sudmit"]){
     padding: 10px;
-    background-color: rgb(140, 140, 201);
+    background-color: rgb(215, 215, 228);
     color: white;
     font-size: 24px;
 }
