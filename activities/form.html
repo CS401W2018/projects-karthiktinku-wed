@@ -58,15 +58,10 @@
            
         </form>
     </main>  
-    <h2>What is JavaScript? How did it get its name?</h2>
-    <p>JavaScript is a web programming language for interactive content. Netscape named it in 1995 to leverage Java’s popularity, though they are unrelated.</p>
-    <h2>What are the two ways you can run JavaScript?</h2>
-    <p>In the browser- JavaScript runs inside web browsers like Chrome or Firefox, handling user interactions and dynamic content.</p>
-    <p>On a server -Using environments like Node.js, JavaScript can run outside the browser to handle backend tasks.</p>
-    <h2>What was the most popular front-end js library?</h2>
-    <p>The most popular front-end JavaScript library has been React.js. Developed by Facebook (now Meta), React became widely used for building interactive and dynamic user interfaces due to its component-based architecture and efficient rendering with the Virtual DOM.</p>
-    <h2>What is the most popular front-end js library today?</h2>
-    <p>​   As of March 2025, React.js remains the most popular front-end JavaScript library. Its component-based architecture and strong community support have solidified its position in the industry. However, other frameworks like Vue.js, Angular, and Svelte are also widely used, each offering unique features and advantages.</p>
+   <h2>What is AJAX? </h2>
+   <p>AJAX allows web pages to update dynamically without reloading by using JavaScript to send and receive data from a server asynchronously.</p>
+   <h2>Why do you put your JS Code in a separate file?</h2>
+   <p>Keeping JavaScript in a separate file makes the code more organized, easier to manage, and reusable across multiple pages. It keeps the HTML clean and improves readability. It also helps with faster loading since browsers can cache the script. Plus, it improves security by reducing the risk of inline script attacks.</p>
     <footer>
         <p>&copy; 2025 Karthik Dasari </p>
     </footer>
@@ -76,6 +71,23 @@
             alert("Form Submitted");
 
             const fullname= document.getElementById('fullname').value;
+            const email= document.getElementById('email').value;
+            const pass = document.getElementById('pass').value;
+
+            if(fullname){
+                alert("you need to enter your name.")
+                return;
+    
+            }
+            if (age || age<18){
+                alert("you need to be 18")
+                return;
+            }
+            const formData = {
+                fullname: fullname,
+                email: email,
+                passward: pass,
+            }
             console.log(fullname);
         });
     </script>
