@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="processing.css">    
+    
+</head>
+<body>
+    <header><h1>FORMS</h1></header>
+    <main>
+        <form action="processing.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-row">
+                    <label for="fullname" >Full Name</label>
+                    <input type="text" id="fullname" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email" >Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="phone">phone</label>
+                    <input type="number" id="phone" name="Phone" required>
+                </div>
+                <div class="form-row">
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div >
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+                <div class="form-row">
+                    <label>Gender:</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+                <div>
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="usa">USA</option>
+                            <option value="canada">INDIA</option>
+                            <option value="uk">UK</option>
+                        </select>
+                </div>
+                <div >
+                    <label>
+                        
+                        <input type="checkbox" name="agree" required> I agree to the terms and conditions
+                    </label>
+                </div>
+                <div class="form-row">
+                    <div> </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+           
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Karthik Dasari</p>
+    </footer>
+
+    <script src="processing.js"></script>
+    
+</body>
+</html>

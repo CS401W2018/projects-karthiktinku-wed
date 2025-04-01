@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color{
+    background-color: black;
+}
+.form-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    align-items: center;
+}
+.radio-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+fieldset{
+    background-color:rgb(103, 207, 193) ;
+    font-style: oblique;
+}
+legend{
+    background-color: #fa947d;
+    padding: 10px;
+}
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-row input:not([type="sudmit"]){
+    padding: 54px;
+    border-radius: 5px;
+    background-color: #40212199;
+}
+.form-row input:not([type="sudmit"]) :focus{
+    background-color: #632929;
+}
+.form-row input:not([type="sudmit"]){
+    padding: 5px;
+    background-color: rgb(172, 241, 196);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+.form-row button{
+    background-color: rgb(62, 255, 62);
+}
+
+
+.form-spacer{
+    width: 150px;
+    text-align: right;
+}
+@media ONLY screen AND (max-width: 600px) {
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+
+    }
+    .form-spacer{
+        text-align: left;
+    }
+    
+}
+
+footer{
+    background-color: rgb(223, 214, 228);
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+}
