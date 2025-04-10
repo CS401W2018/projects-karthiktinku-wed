@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hyderabad</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header><h1>FORMS</h1></header>
+    <p></p>
+    <nav> 
+        <a href="index.html" class="current">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Food</a>
+        <a href="landmark.html">landmarks</a>
+        <a href="table.html">table</a>
+        <a href="culture.html">culture</a>
+        <a href="form.html">form</a>
+    </nav>
+   
+    <main>
+        <div id="message"></div>
+        <form action="processing.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Visitor Feedback Form</legend>
+                <div class="form-row">
+                    <label for="fullname" >Full Name</label>
+                    <input type="text" id="fullname" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email" >Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="favPlace">Favorite Place in Hyderabad:</label>
+                    <input type="text" id="favPlace" name="favoritePlace" placeholder="e.g., Charminar" required>
+                </div>
+                <div class="form-row">
+                    <label for="favDish">Favorite Hyderabadi Dish:</label>
+                    <input type="text" id="favDish" name="favoriteDish" placeholder="e.g., Biryani" required>
+                </div>
+                <div class="form-row">
+                    <label for="feedback">Your Feedback / Suggestions:</label>
+                    <textarea id="feedback" name="feedback" rows="5" placeholder="We'd love to hear your thoughts!"></textarea>
+                </div>
+                 <div class="form-row">
+                    <label for="visitDate">When did you last visit Hyderabad?</label>
+                    <input type="date" id="visitDate" name="visitDate">
+                </div>
+    
+
+            
+                <div class="form-row">
+                    <div> </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+           
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Karthik Dasari</p>
+    </footer>
+
+    <script src="processing.js"></script>
+
+</body>
+</html>
